@@ -19,21 +19,36 @@
                 8,
                 9,
                 10,
-                11
+                11,
+                12
             ]
         },
         {
             "name" : "Scene.001",
             "nodes" : [
-                12,
                 13,
                 14,
                 15,
-                16
+                16,
+                17
             ]
         }
     ],
     "nodes" : [
+        {
+            "name" : "Area",
+            "rotation" : [
+                0,
+                0,
+                -0.35226646065711975,
+                0.9358998537063599
+            ],
+            "translation" : [
+                6.983107089996338,
+                14.041184425354004,
+                0
+            ]
+        },
         {
             "mesh" : 0,
             "name" : "Body",
@@ -347,8 +362,17 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Ring",
-            "pbrMetallicRoughness" : {}
+            "name" : "Ring.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5117969512939453,
+                    0.29577454924583435,
+                    0.20360983908176422,
+                    1
+                ],
+                "metallicFactor" : 0.8999999761581421,
+                "roughnessFactor" : 0.2818180024623871
+            }
         },
         {
             "doubleSided" : true,
@@ -416,11 +440,6 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Ring.001",
-            "pbrMetallicRoughness" : {}
-        },
-        {
-            "doubleSided" : true,
             "name" : "Body.002",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
@@ -482,11 +501,6 @@
                 "metallicFactor" : 0.8161764740943909,
                 "roughnessFactor" : 0.4000000059604645
             }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "Ring.002",
-            "pbrMetallicRoughness" : {}
         },
         {
             "doubleSided" : true,
@@ -676,7 +690,7 @@
                         "TEXCOORD_1" : 39
                     },
                     "indices" : 9,
-                    "material" : 7
+                    "material" : 1
                 },
                 {
                     "attributes" : {
@@ -686,7 +700,7 @@
                         "TEXCOORD_1" : 43
                     },
                     "indices" : 14,
-                    "material" : 8
+                    "material" : 7
                 },
                 {
                     "attributes" : {
@@ -696,7 +710,7 @@
                         "TEXCOORD_1" : 47
                     },
                     "indices" : 19,
-                    "material" : 9
+                    "material" : 8
                 }
             ]
         },
@@ -710,7 +724,7 @@
                         "TEXCOORD_0" : 50
                     },
                     "indices" : 51,
-                    "material" : 10
+                    "material" : 9
                 }
             ]
         },
@@ -724,7 +738,7 @@
                         "TEXCOORD_0" : 54
                     },
                     "indices" : 55,
-                    "material" : 10
+                    "material" : 9
                 }
             ]
         },
@@ -738,7 +752,7 @@
                         "TEXCOORD_0" : 58
                     },
                     "indices" : 23,
-                    "material" : 11
+                    "material" : 10
                 }
             ]
         },
@@ -753,7 +767,7 @@
                         "TEXCOORD_1" : 62
                     },
                     "indices" : 4,
-                    "material" : 12
+                    "material" : 11
                 },
                 {
                     "attributes" : {
@@ -763,7 +777,7 @@
                         "TEXCOORD_1" : 66
                     },
                     "indices" : 9,
-                    "material" : 13
+                    "material" : 1
                 },
                 {
                     "attributes" : {
@@ -773,7 +787,7 @@
                         "TEXCOORD_1" : 70
                     },
                     "indices" : 14,
-                    "material" : 14
+                    "material" : 12
                 },
                 {
                     "attributes" : {
@@ -783,7 +797,7 @@
                         "TEXCOORD_1" : 74
                     },
                     "indices" : 19,
-                    "material" : 15
+                    "material" : 13
                 }
             ]
         },
@@ -797,7 +811,7 @@
                         "TEXCOORD_0" : 77
                     },
                     "indices" : 78,
-                    "material" : 16
+                    "material" : 14
                 }
             ]
         },
@@ -811,7 +825,7 @@
                         "TEXCOORD_0" : 81
                     },
                     "indices" : 82,
-                    "material" : 16
+                    "material" : 14
                 }
             ]
         },
@@ -825,7 +839,7 @@
                         "TEXCOORD_0" : 85
                     },
                     "indices" : 23,
-                    "material" : 17
+                    "material" : 15
                 }
             ]
         },
@@ -838,7 +852,7 @@
                         "NORMAL" : 87
                     },
                     "indices" : 88,
-                    "material" : 18
+                    "material" : 16
                 }
             ]
         },
@@ -851,7 +865,7 @@
                         "NORMAL" : 90
                     },
                     "indices" : 91,
-                    "material" : 19
+                    "material" : 17
                 }
             ]
         }
